@@ -1,0 +1,577 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: bebas;
+    letter-spacing: 0.7px;
+}
+@font-face {
+  font-family: bebas;
+  src: url(fonts/bebas.ttf);
+}
+.msg_err{
+    margin: 1% 0 1% 0;
+    color: red;
+}
+.msg_good{
+    margin: 1% 0 1% 0;
+    color: green;
+}
+/* CSS файла index */
+.body_index{
+    background: url("img/фон.jpg");
+}
+.form_index{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%,-50%);
+    background-color: rgb(162, 232, 198);
+    margin: 1%;
+    padding: 1%;
+    border-radius: .5rem;
+}
+.signin_form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 26px;
+}
+.index_form{
+    width: 400px;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.info_cont{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: .25rem;
+}
+/* CSS файла register */
+.form_register{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(162, 232, 198);
+    margin: 1%;
+    padding: 1%;
+    border-radius: .5rem;
+}
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    width: 550px;
+}
+.register{
+    width: 600px;
+}
+.reg_cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.info_cont.a{
+    flex-direction: column;
+    align-items: center;
+
+}
+.info_cont.a,.info_cont.b{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CSS файла profile */
+.body_profile{
+    background: url("img/фон.jpg");
+}
+.profile_register{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 232, 198);
+    padding: 2%;
+    border-radius: .5rem;
+    font-family: bebas;
+    letter-spacing: 0.5px;
+}
+.btn-register{
+    width: 400px;
+    margin: 8px;
+}
+.btn-exit{
+    position: absolute;
+    left: 99%;
+    transform: translate(-99%, 0);
+    margin-top: 1%;
+}
+.btn-procedure{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.table-profile{
+    text-align: left;
+    align-items: center;
+    background-color: rgb(162, 232, 198);;
+    margin: 0.5%;
+    padding: 1%;
+    border-radius: .5rem;
+}
+/* CSS файла anketa */
+.form_anketa{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 232, 198);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+.btn-reg{
+    margin-top: 2%;
+}
+.btn-return{
+    position: absolute;
+    left: 98%;
+    transform: translate(-98%, 0);
+    margin-top: 1%;
+    width: 270px;
+}
+.btn-return-table{
+    position: absolute;
+    left: 98%;
+    transform: translate(-98%, 0);
+    width: 250px;
+}
+.body_anketa{
+    background: url("img/фон.jpg");
+}
+/* CSS файла patient_update_next */
+.form_update_patient_next{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(162, 232, 198);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+.body_update_patient_next{
+    background: url("img/фон.jpg");
+}
+.btn-return_ID{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 1%;
+}
+.btn-return-upd{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 5%;
+}
+/* CSS файла patient_delete */
+.form_delete{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 600px;
+}
+.body_delete_patient{
+    background: url("img/фон.jpg");
+}
+.btn-del{
+    margin-top: 2%;
+}
+/* CSS файла appeal */
+.form_appeal{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 30%;
+    background-color: rgb(162, 232, 198);
+    padding: 1%;
+    margin: 1% ;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: .5rem;
+}
+.body_appeal{
+    background: url("img/фон.jpg");
+}
+/* CSS файла show_patient */
+.body_show_patient{
+    background: url("img/фон2.jpg");
+}
+.form_show_patient{
+    align-items: center;
+    text-align: left;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+/* CSS файла report_patient */
+.form_report_patient{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+.body_report_patient{
+    background: url("img/фон2.jpg");
+}
+.btn-save-report{
+    position: absolute;
+    left: 4%;
+    transform: translate(-4%, 0);
+    margin-top: 1%;
+}
+.btn-return-report{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* CSS файла show_doctor */
+.body_show_doctor{
+    background: url("img/фон2.jpg");
+}
+.form_show_doctor{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+/* CSS файла doctor_report */
+.body_doctor_report{
+    background: url("img/фон2.jpg");
+}
+.form_report_doctor{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 2% 2% 0.5% 2%;
+    margin: 1%;
+    border-radius: .5rem;
+}
+.btn-doc-report{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+.btn-return-list{
+    position: absolute;
+    left: 98%;
+    transform: translate(-98%, 0);
+    margin-top: 4%;
+}
+/* CSS файла show_appeal */
+.body_show_appeal{
+    background: url("img/фон2.jpg");
+}
+.form_show_appeal{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+/* CSS файла drug */
+.form_drug{
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+.btn-drug{
+    position: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 1% ;
+}
+/* CSS файла drug_new */
+.body_drug_new{
+    background: url("img/фон.jpg");
+}
+.form_drug_new{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+.btn-return-drug-list{
+    position: absolute;
+    left: 99%;
+    transform: translate(-99%, 0);
+}
+/* CSS файла drug_delete */
+.body_drug_delete{
+    background: url("img/фон.jpg");
+}
+.form_drug_delete{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}
+/* CSS файла drug_update_next */
+.btn-return-drug-name{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* CSS файла storage_procedure_search */
+.body_procedure_search{
+    background: url("img/фон.jpg");
+}
+.form_procedure_search{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, 0);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 700px;
+    top: 35%;
+}
+/* CSS файла storage_procedure */
+.body_storage_procedure{
+    background: url("img/фон.jpg");
+}
+.form_procedure-1{
+    position: absolute;
+    top: 35%;
+    left: 54%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 800px;
+}
+.form_procedure-2{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 2%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 800px;
+}
+/* CSS файла show_health_patient */
+.body_show_health{
+    background: url("img/фон.jpg");
+}
+.form_show_health{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+}s
+.btn-return-profile{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* CSS файла diagnosis */
+.form_table{
+    position: absolute;
+    text-align: justify;
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    background-color: rgb(174, 205, 252);
+}
+.form1{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(162, 232, 198);;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+    border: 1px solid black;
+    width: 500px;
+}
+.form2{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(162, 232, 198);;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+    border: 1px solid black;
+    width: 500px;
+}
+/* CSS файла diagnosis_search */
+.btn-return_diagnosis_search{
+    position: absolute;
+    left: 98%;
+    transform: translate(-98%, 0);
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    width: 250px;
+    height: 100px;
+}
+.btn-return-diagnosis{
+    margin: 2%;
+}
+.form_diagnosis{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(162, 232, 198);;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+    border: 1px solid black;
+    width: 500px;
+}
+.table_diagnosis{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(174, 205, 252);
+    border-radius: .5rem;
+    text-align: justify;
+}
+/* CSS файла diagnosis_delete */
+.body_delete_diagnosis{
+    background: url("img/фон.jpg");
+}
+.form_diagnosis_delete{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 600px;
+}
+/* CSS файла recipe */
+.table_recipe{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(174, 205, 252);
+}
+.form_recipe{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(162, 232, 198);;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+    border: 1px solid black;
+    width: 600px;
+}
+/* CSS файла recipe_delete */
+.form_recipe_delete{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 600px;
+}
+/* CSS файла discharge */
+.form_discharge{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 600px;
+    height: 270px;
+}
+/* CSS файла drug_update_next */
+.body_drug_update{
+    background: url("img/фон.jpg");
+}
+.form_drug_update{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    background-color: rgb(174, 205, 252);
+    padding: 1%;
+    margin: 1% ;
+    border-radius: .5rem;
+    width: 600px;
+}
